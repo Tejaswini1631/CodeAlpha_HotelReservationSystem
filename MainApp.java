@@ -69,7 +69,7 @@ public class MainApp {
                             found = true;
 
                             if(r.isavailability) {
-                                r.isavailability = false;   // ✅ FIXED
+                                r.isavailability = false;   
                                 System.out.println("Room Booked Successfully!..");
                             }
                             else {
@@ -94,8 +94,8 @@ public class MainApp {
                         if(r.Roomno == roomno1) {
                             foundCancel = true;
 
-                            if(!r.isavailability) {   // ✅ FIXED
-                                r.isavailability = true;   // ✅ FIXED
+                            if(!r.isavailability) {  
+                                r.isavailability = true;  
                                 System.out.println("Booking Cancelled Successfully!..");
                             }
                             else {
@@ -112,7 +112,7 @@ public class MainApp {
 
                 case 4:
                     System.out.println("Thank You 😊 Visit Again !.....");
-                    return;   // ✅ FIXED (exit loop)
+                    return;  
 
                 default:
                     System.out.println("Invalid choose correct one!");

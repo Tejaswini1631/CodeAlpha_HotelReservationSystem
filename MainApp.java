@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 class Room{
-    int Roomno;
-    String Roomtype;
-    double Roomprice;
+    int roomno;
+    String roomtype;
+    double roomprice;
     boolean isavailability;
     
     public Room(int room_no, String room_type, double room_price, boolean isavailability) {
-        Roomno = room_no;
-        Roomtype = room_type;
-        Roomprice = room_price;
+        roomno = room_no;
+        roomtype = room_type;
+        roomprice = room_price;
         this.isavailability = isavailability;
     }
 }
@@ -51,9 +51,9 @@ public class MainApp {
                             status="Booked";
                         }
 
-                        System.out.println("Room_No: "+r.Roomno+ 
-                                " || Room_Type: "+r.Roomtype +
-                                " || Room_Price: "+r.Roomprice+
+                        System.out.println("Room_No: "+r.roomno+ 
+                                " || Room_Type: "+r.roomtype +
+                                " || Room_Price: "+r.roomprice+
                                 " || Available: "+status);
                     }
                     break;
@@ -65,7 +65,7 @@ public class MainApp {
                     boolean found = false;
 
                     for(Room r:al) {
-                        if(r.Roomno == roomno) {
+                        if(r.roomno == roomno) {
                             found = true;
 
                             if(r.isavailability) {
@@ -91,7 +91,7 @@ public class MainApp {
                     boolean foundCancel = false;
 
                     for(Room r:al) {
-                        if(r.Roomno == roomno1) {
+                        if(r.roomno == roomno1) {
                             foundCancel = true;
 
                             if(!r.isavailability) {  

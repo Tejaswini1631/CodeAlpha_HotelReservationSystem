@@ -1,30 +1,31 @@
-Hotel Reservation System (Java)
+# Hotel Reservation System (Java + MySQL)
 
-This is a console-based Java project developed as part of the CodeAlpha Internship.
+## Description
 
- 📌 Features
+This project is developed as part of CodeAlpha Internship.
 
-* View available rooms
-* Book a room
-* Cancel booking
-* Menu-driven system
+## Features
 
- 🛠 Technologies Used
+* View Rooms
+* Book Room
+* Cancel Booking
+* Payment Simulation
+* Booking Details Display
+* Database Integration using MySQL (JDBC)
+
+## Technologies Used
 
 * Java
-* ArrayList
-* OOP Concepts
+* JDBC
+* MySQL
 
- ▶️ How to Run
+## How to Run
 
-1. Open project in Eclipse or any Java IDE
-2. Run MainApp.java
-3. Follow menu options
+1. Setup MySQL database
+2. Create table using SQL queries
+3. Run MainApp.java
 
- 📊 Project Description
+## Author
 
-This system allows users to manage hotel room bookings. It tracks room availability and updates booking status dynamically.
+K. Tejaswini
 
- 👩‍💻 Author
-
-Tejaswini
